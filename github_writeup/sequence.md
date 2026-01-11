@@ -1,6 +1,6 @@
-=== PASSOS GIT/GITHUB ===
+# === PASSOS GIT/GITHUB ===
 
-PASSOS DE 1ª VEZ (quando ainda não existe repo local)
+# PASSOS DE 1ª VEZ (quando ainda não existe repo local)
 
 -Criar repo no GitHub (site) ou já ter URL do repo
 -No PC:
@@ -12,7 +12,7 @@ PASSOS DE 1ª VEZ (quando ainda não existe repo local)
 
 =======================================================
 
-PASSOS GIT/GITHUB (dentro de um repo já conectado)
+# PASSOS GIT/GITHUB (dentro de um repo já conectado)
 
 -Criar pastas/arquivos
     -mkdir runbooks, writeups, troubleshooting -Force
@@ -29,25 +29,25 @@ Salvar versão e enviar
     -git push
 
 ======================================================    
-# OBS: 
-AO CRIAR UM REPOSITÓRIO OU ARQUIVO DE TEXTO, 
-DEVE-SE VERIFICAR O STATUS E ADICIONAR AS MUDANÇAS AO GIT, 
-E ASSIM DEVE-SE CONFIRMAR COM UMA MENSAGEM CURTA, 
-TAMBÉM EXPLICANDO SOBRE O QUE FOI FEITO, 
-E AO FINAL ENVIAR PARA O GITHUB.
-DA PARA EDITAR NO GITHUB TAMBÉM, E DEPOIS SALVAR NO PC. - git pull
 
-# git clone - BAIXA UM REPOSITÓRIO DO GITHUB PRO SEU PC, JÁ CONECTADO AO REMOTO.
-# git init - TRANSFORMA UMA PASTA DO SEU PC EM UM REPOSITÓRIO GIT (LOCAL)
-# git remote add origin <url> - CONECTA SEU REPOSITÓRIO LOCAL A UM REPOSITÓRIO REMOTO (GITHUB)
-# git remove -v - MOSTRA PRA ONDE SEU REPOSITÓRIO ESTÁ APONTANDO (URL DO GITHUB)
-# git branch -M main - RENOMEIA/DEFINE O BRANCH ATUAL COMO MAIN (PADRÃO HOJE)
-# git status - MOSTRA O QUE MUDOU E O QUE ESTÁ PRONTO PRA COMMIT.
-# git add . / git add (arquivo) - SELECIONA MUDANÇAS PARA ENTRAR NO PRÓXIMO COMMIT ("STAGING"). ## . = (TUDO)  
-# git commit -m "(mensagem)" - SALVA UMA VERSÃO NO HISTÓRICO LOCAL COM UMA DESCRIÇÃO.
-# git push - ENVIA SEUS COMMITS PRO GITHUB
-# git push -u origin main - PRIMEIRO PUSH + DEFINE "UPSTREAM" (LIGA SEU BRANCH LOCAL MAIN AO REMOTO ORIGIN/MAIN)
-# git pull - QUANDO SE EDITA NO GITHUB E QUER SALVAR NO PC.
+# OBS: 
+Ao criar um repositório ou arquivo de texto, deve-se verificar o status e adicionar as mudanças ao git, e assim deve-se confirmar com uma mensagem curta, também explicando sobre o que foi feito, e ao final enviar para o github. Também há o meio de editar no github também, e depois salvar no pc. 
+
+======================================================
+
+# COMANDOS GIT:
+git clone - baixa um repositório do github pro seu pc, já conectado ao remoto.
+git init - transforma uma pasta do seu pc em um repositório git (local)
+git remote add origin <url> - conecta seu repositório local a um repositório remoto (github)
+git remove -v - mostra pra onde seu repositório está apontando (url do github)
+git branch -M main - renomeia/define o branch atual como main (padrão hoje)
+git status - mostra o que mudou e o que está pronto pra commit.
+git add . / git add (arquivo) - seleciona mudanças para entrar no próximo commit ("staging"). 
+"." = tudo   
+git commit -m "(mensagem)" - salva uma versão no histórico local com uma descrição.
+git push - envia seus commits pro github
+git push -u origin main - primeiro push + define "upstream" (liga seu branch local main ao remoto origin/main)
+git pull - quando se edita no github e quer salvar no pc.
 
 
 
