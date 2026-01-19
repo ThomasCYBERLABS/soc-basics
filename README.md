@@ -23,3 +23,5 @@ Objetivo: construir constância + artefatos práticos (checklists, runbooks, wri
 - [ ] 1 análise simples de PCAP com writeup
 
 > Obs.: Qualquer dado sensível será removido/mascarado.
+
+Minhas anotações de Git ficam aqui: https://github.com/ThomasCYBERLABS/Git-notes.git
